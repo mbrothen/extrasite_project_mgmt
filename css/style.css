@@ -1,0 +1,16 @@
+.ctaDesktop {
+    display: none;
+}
+
+.call a {
+    text-decoration: none;
+}
+
+  @media only screen and (min-width: 700px) {
+    .ctaDesktop {
+        display:inline-block;
+    }
+    .ctaMobile {
+        display:none;
+    }
+  }
